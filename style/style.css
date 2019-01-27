@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+body {
+  background-color: rgb(253, 112, 101);
+}
+
+/*
+            BUTTON
+*/
+
+.button {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: rgb(253, 112, 101);
+}
+
+.button div {
+  padding: 20px;
+  margin: auto;
+  background-color: #fd7065;
+}
+
+.button a {
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.button a:visited {
+  color: white;
+}
+
+/*
+            TASK1
+*/
+
+.task1 {
+  display: flex;
+}
+
+.show {
+  height: auto;
+  width: 70%;
+  background-color: rgb(253, 112, 101);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#list div {
+  cursor: pointer;
+  padding-left: 4px;
+  font-size: 30px;
+  margin-top: 1px;
+  width: 100%;
+}
+
+.textField {
+  padding: 20px;
+  height: 418px;
+  width: 80%;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+.insert {
+  color: white;
+  height: auto;
+  width: 30%;
+  background-color: rgb(253, 112, 101);
+  padding-top: 8%;
+  padding-bottom: 5%;
+  padding-left: 4%;
+}
+
+.statistic {
+  margin-top: 20%;
+  font-size: 20px;
+  height: 40px;
+  width: 60%;
+  border: none;
+  background-color: #ffffff;
+  color: #fd7065;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.statistic:hover {
+  opacity: 0.8;
+}
+
+#colorText {
+  margin-top: 10%;
+}
+
+.enterBlock {
+  margin-top: 5%;
+  font-size: 20px;
+  height: 40px;
+  width: 60%;
+  border: none;
+  color: #fd7065;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.enterBlock:hover {
+  opacity: 0.8;
+}
+
+.choosColor {
+  margin-top: 5%;
+}
+
+#colorText {
+  border: none;
+  margin-top: 2%;
+  cursor: pointer;
+  width: 60%;
+  height: 30px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+#typedText {
+  margin-top: 5%;
+  font-size: 17px;
+  width: 60%;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+}
+
+.radioButton {
+  cursor: pointer;
+}
+.radioText {
+  display: inline-block;
+}
+
+/*
+            TASK2
+*/
+
+.field {
+  position: relative;
+}
+
+.field div {
+  position: absolute;
+  width: 100%;
+}
+
+.field {
+  margin: auto;
+  background-color: rgb(223, 220, 223);
+}
+
+#highlight {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+  outline: 1px dotted rgb(255, 0, 0);
+}
+
+#blocklight {
+  outline: 1px dashed black;
+}
+
+.tassk2 {
+  display: flex;
+}
+
+.show2 {
+  height: auto;
+  width: 70%;
+  background-color: rgb(253, 112, 101);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#task2 {
+  padding: 20px;
+  height: 418px;
+  width: 80%;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+.insert2 {
+  height: auto;
+  width: 30%;
+  background-color: rgb(253, 112, 101);
+  padding-top: 8%;
+  padding-bottom: 5%;
+  padding-left: 4%;
+}
+
+.addRect {
+  font-size: 20px;
+  height: 40px;
+  width: 60%;
+  border: none;
+  color: #fd7065;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.addRect:hover {
+  opacity: 0.8;
+}
+
+/*
+            TASK3
+*/
+
+#field3 {
+  background-color: bisque;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  position: relative;
+}
+
+#field3 div {
+  position: absolute;
+}
+
+.draggable {
+  cursor: pointer;
+}
+
+.tassk3 {
+  display: flex;
+}
+
+.show3 {
+  height: auto;
+  width: 70%;
+  background-color: rgb(253, 112, 101);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#field3 {
+  padding: 20px;
+  height: 418px;
+  width: 80%;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+.insert3 {
+  height: auto;
+  width: 30%;
+  background-color: rgb(253, 112, 101);
+  padding-top: 8%;
+  padding-bottom: 5%;
+  padding-left: 4%;
+}
